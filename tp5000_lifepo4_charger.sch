@@ -36,23 +36,12 @@ F 3 "https://www.lcsc.com/product-detail/MOSFET_Fortune-Semicon-FS8205A_C16052.h
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:USB_C_Plug_USB2.0 P1
-U 1 1 638CC637
-P 2550 6550
-F 0 "P1" H 2657 7417 50  0000 C CNN
-F 1 "USB_C_Plug_USB2.0" H 2657 7326 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 2700 6550 50  0001 C CNN
-F 3 "https://www.lcsc.com/product-detail/span-style-background-color-ff0-USB-span-Connectors_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.html" H 2700 6550 50  0001 C CNN
-	1    2550 6550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x01_Female J2
 U 1 1 638D360A
 P 2450 5350
 F 0 "J2" H 2600 5300 50  0000 C CNN
 F 1 "GND" H 2600 5400 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 2450 5350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 2450 5350 50  0001 C CNN
 F 3 "~" H 2450 5350 50  0001 C CNN
 	1    2450 5350
 	-1   0    0    1   
@@ -63,7 +52,7 @@ U 1 1 638D7B49
 P 2450 5150
 F 0 "J1" H 2600 5100 50  0000 C CNN
 F 1 "VIN" H 2600 5200 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 2450 5150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 2450 5150 50  0001 C CNN
 F 3 "~" H 2450 5150 50  0001 C CNN
 	1    2450 5150
 	-1   0    0    1   
@@ -74,7 +63,7 @@ U 1 1 638D7E17
 P 4900 5850
 F 0 "J3" H 4928 5876 50  0000 L CNN
 F 1 "VOUT" H 4928 5785 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 4900 5850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 4900 5850 50  0001 C CNN
 F 3 "~" H 4900 5850 50  0001 C CNN
 	1    4900 5850
 	1    0    0    -1  
@@ -85,7 +74,7 @@ U 1 1 638DA098
 P 4900 6500
 F 0 "J5" H 4928 6526 50  0000 L CNN
 F 1 "BAT+" H 4928 6435 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 4900 6500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 4900 6500 50  0001 C CNN
 F 3 "~" H 4900 6500 50  0001 C CNN
 	1    4900 6500
 	1    0    0    -1  
@@ -96,7 +85,7 @@ U 1 1 638DA169
 P 4900 6700
 F 0 "J6" H 4928 6726 50  0000 L CNN
 F 1 "BAT-" H 4928 6635 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 4900 6700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 4900 6700 50  0001 C CNN
 F 3 "~" H 4900 6700 50  0001 C CNN
 	1    4900 6700
 	1    0    0    -1  
@@ -104,12 +93,12 @@ $EndComp
 $Comp
 L power:GND #PWR06
 U 1 1 638F36E3
-P 2550 7450
-F 0 "#PWR06" H 2550 7200 50  0001 C CNN
-F 1 "GND" H 2555 7277 50  0000 C CNN
-F 2 "" H 2550 7450 50  0001 C CNN
-F 3 "" H 2550 7450 50  0001 C CNN
-	1    2550 7450
+P 2600 7400
+F 0 "#PWR06" H 2600 7150 50  0001 C CNN
+F 1 "GND" H 2605 7227 50  0000 C CNN
+F 2 "" H 2600 7400 50  0001 C CNN
+F 3 "" H 2600 7400 50  0001 C CNN
+	1    2600 7400
 	1    0    0    -1  
 $EndComp
 Text GLabel 9800 1850 2    50   Input ~ 0
@@ -436,18 +425,8 @@ F 3 "" H 3350 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3350 1850 3350 1900
-Text GLabel 3250 5950 2    50   Input ~ 0
+Text GLabel 3300 5900 2    50   Input ~ 0
 VIN
-Wire Wire Line
-	3150 5950 3250 5950
-Wire Wire Line
-	3150 6450 3200 6450
-Wire Wire Line
-	3200 6450 3200 6650
-Wire Wire Line
-	3200 6650 3150 6650
-NoConn ~ 3150 6150
-NoConn ~ 3150 6250
 Text GLabel 4600 6500 0    50   Input ~ 0
 B+
 Text GLabel 4600 6700 0    50   Input ~ 0
@@ -458,7 +437,7 @@ U 1 1 638D7F83
 P 4900 6050
 F 0 "J4" H 4928 6076 50  0000 L CNN
 F 1 "GND" H 4928 5985 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_4.0x4.0mm_Drill2.0mm" H 4900 6050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_2.5x2.5mm_Drill1.2mm" H 4900 6050 50  0001 C CNN
 F 3 "~" H 4900 6050 50  0001 C CNN
 	1    4900 6050
 	1    0    0    -1  
@@ -519,12 +498,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR04
 U 1 1 63971526
-P 2250 7450
-F 0 "#PWR04" H 2250 7200 50  0001 C CNN
-F 1 "GND" H 2255 7277 50  0000 C CNN
-F 2 "" H 2250 7450 50  0001 C CNN
-F 3 "" H 2250 7450 50  0001 C CNN
-	1    2250 7450
+P 2300 7400
+F 0 "#PWR04" H 2300 7150 50  0001 C CNN
+F 1 "GND" H 2305 7227 50  0000 C CNN
+F 2 "" H 2300 7400 50  0001 C CNN
+F 3 "" H 2300 7400 50  0001 C CNN
+	1    2300 7400
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -848,4 +827,33 @@ F 3 "~" H 1350 3100 50  0001 C CNN
 $EndComp
 Text GLabel 1750 3750 3    50   Input ~ 0
 VIN
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J?
+U 1 1 640C46BA
+P 2600 6500
+F 0 "J?" H 2707 7367 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 2707 7276 50  0000 C CNN
+F 2 "" H 2750 6500 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2750 6500 50  0001 C CNN
+	1    2600 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5900 3300 5900
+Wire Wire Line
+	3200 6400 3300 6400
+Wire Wire Line
+	3300 6400 3300 6600
+Wire Wire Line
+	3300 6600 3200 6600
+Wire Wire Line
+	3200 6500 3250 6500
+Wire Wire Line
+	3250 6500 3250 6700
+Wire Wire Line
+	3250 6700 3200 6700
+NoConn ~ 3200 6100
+NoConn ~ 3200 6200
+NoConn ~ 3200 7000
+NoConn ~ 3200 7100
 $EndSCHEMATC

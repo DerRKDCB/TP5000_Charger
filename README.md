@@ -12,5 +12,5 @@
 * [ ] remove component labels
 * [ ] tighter layout
 * [ ] mounting holes in schematic
-* [ ] smaller solder connections
+* [ ] smaller solder connections, schematic footprints OK
 * [ ] USB C side B D+ and D- connections, schematic OK

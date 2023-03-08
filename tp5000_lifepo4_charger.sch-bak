@@ -265,39 +265,6 @@ F 3 "https://www.lcsc.com/product-detail/Tantalum-Capacitors_CEC-Shenzhen-Zhenhu
 	1    1700 2300
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:LED D2
-U 1 1 63923C20
-P 1250 3100
-F 0 "D2" H 1243 2845 50  0000 C CNN
-F 1 "CHRG" H 1243 2936 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1250 3100 50  0001 C CNN
-F 3 "~" H 1250 3100 50  0001 C CNN
-	1    1250 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:LED D3
-U 1 1 63928A2C
-P 1650 3100
-F 0 "D3" H 1643 2845 50  0000 C CNN
-F 1 "FULL" H 1643 2936 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1650 3100 50  0001 C CNN
-F 3 "~" H 1650 3100 50  0001 C CNN
-	1    1650 3100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 63934A1C
-P 1650 3500
-F 0 "R2" H 1720 3546 50  0000 L CNN
-F 1 "1k" H 1720 3455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1580 3500 50  0001 C CNN
-F 3 "~" H 1650 3500 50  0001 C CNN
-	1    1650 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 2450 1700 2450
 Connection ~ 1700 2450
@@ -829,23 +796,56 @@ Wire Wire Line
 Connection ~ 2750 3400
 Wire Wire Line
 	2750 3400 2750 3500
-Text GLabel 1650 3750 3    50   Input ~ 0
+Wire Wire Line
+	2300 2850 1350 2850
+Wire Wire Line
+	2300 2950 1750 2950
+Wire Wire Line
+	1750 3650 1750 3750
+$Comp
+L Device:R R2
+U 1 1 63934A1C
+P 1750 3500
+F 0 "R2" H 1820 3546 50  0000 L CNN
+F 1 "1k" H 1820 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1680 3500 50  0001 C CNN
+F 3 "~" H 1750 3500 50  0001 C CNN
+	1    1750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2850 1350 2950
+Wire Wire Line
+	1350 3250 1350 3300
+Wire Wire Line
+	1750 3300 1750 3350
+Wire Wire Line
+	1750 3250 1750 3300
+Connection ~ 1750 3300
+Wire Wire Line
+	1350 3300 1750 3300
+$Comp
+L Device:LED D3
+U 1 1 63928A2C
+P 1750 3100
+F 0 "D3" H 1743 2845 50  0000 C CNN
+F 1 "FULL" H 1743 2936 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1750 3100 50  0001 C CNN
+F 3 "~" H 1750 3100 50  0001 C CNN
+	1    1750 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 63923C20
+P 1350 3100
+F 0 "D2" H 1343 2845 50  0000 C CNN
+F 1 "CHRG" H 1343 2936 50  0000 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1350 3100 50  0001 C CNN
+F 3 "~" H 1350 3100 50  0001 C CNN
+	1    1350 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 1750 3750 3    50   Input ~ 0
 VIN
-Wire Wire Line
-	1650 3650 1650 3750
-Wire Wire Line
-	1650 3250 1650 3300
-Wire Wire Line
-	1250 3250 1250 3300
-Wire Wire Line
-	1250 3300 1650 3300
-Connection ~ 1650 3300
-Wire Wire Line
-	1650 3300 1650 3350
-Wire Wire Line
-	1650 2950 2300 2950
-Wire Wire Line
-	1250 2850 1250 2950
-Wire Wire Line
-	1250 2850 2300 2850
 $EndSCHEMATC
