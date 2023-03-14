@@ -111,7 +111,7 @@ U 1 1 6390257E
 P 9450 1850
 F 0 "R4" V 9243 1850 50  0000 C CNN
 F 1 "100" V 9334 1850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9380 1850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9380 1850 50  0001 C CNN
 F 3 "" H 9450 1850 50  0001 C CNN
 	1    9450 1850
 	0    1    1    0   
@@ -122,7 +122,7 @@ U 1 1 63902FFC
 P 9050 2000
 F 0 "C4" H 9165 2046 50  0000 L CNN
 F 1 "100nF" H 9165 1955 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9088 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9088 1850 50  0001 C CNN
 F 3 "~" H 9050 2000 50  0001 C CNN
 	1    9050 2000
 	1    0    0    -1  
@@ -192,7 +192,7 @@ U 1 1 63912E19
 P 7450 2050
 F 0 "R3" V 7243 2050 50  0000 C CNN
 F 1 "1k" V 7334 2050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7380 2050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 7380 2050 50  0001 C CNN
 F 3 "~" H 7450 2050 50  0001 C CNN
 	1    7450 2050
 	0    1    1    0   
@@ -249,7 +249,7 @@ U 1 1 63922693
 P 2000 2200
 F 0 "C1" H 1882 2154 50  0000 R CNN
 F 1 "10uF" H 1882 2245 50  0000 R CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder" H 2038 2050 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" H 2038 2050 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Tantalum-Capacitors_CEC-Shenzhen-Zhenhua-XinYun-Elec-CA45A-A-16V-10uF-K_C129279.html" H 2000 2200 50  0001 C CNN
 	1    2000 2200
 	-1   0    0    1   
@@ -265,7 +265,7 @@ U 1 1 63937DAE
 P 2300 3100
 F 0 "C2" H 2415 3146 50  0000 L CNN
 F 1 "100n" H 2415 3055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2338 2950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 2950 50  0001 C CNN
 F 3 "~" H 2300 3100 50  0001 C CNN
 	1    2300 3100
 	1    0    0    -1  
@@ -352,7 +352,7 @@ U 1 1 63951C4C
 P 3700 2350
 F 0 "C3" H 3818 2396 50  0000 L CNN
 F 1 "10uF" H 3818 2305 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder" H 3738 2200 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" H 3738 2200 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Tantalum-Capacitors_CEC-Shenzhen-Zhenhua-XinYun-Elec-CA45A-A-16V-10uF-K_C129279.html" H 3700 2350 50  0001 C CNN
 	1    3700 2350
 	1    0    0    -1  
@@ -388,7 +388,7 @@ U 1 1 639665A3
 P 4000 1750
 F 0 "L1" V 3954 1828 50  0000 L CNN
 F 1 "4.7uH" V 4045 1828 50  0000 L CNN
-F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-50xx_HandSoldering" H 4000 1750 50  0001 C CNN
+F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-50xx" H 4000 1750 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Inductors-SMD_SHOU-HAN-CY54-4-7UH_C2929429.html" H 4000 1750 50  0001 C CNN
 	1    4000 1750
 	0    1    1    0   
@@ -447,7 +447,7 @@ U 1 1 639990E3
 P 9700 2150
 F 0 "C5" H 9818 2196 50  0000 L CNN
 F 1 "10uF" H 9818 2105 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder" H 9738 2000 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" H 9738 2000 50  0001 C CNN
 F 3 "https://www.lcsc.com/product-detail/Tantalum-Capacitors_CEC-Shenzhen-Zhenhua-XinYun-Elec-CA45A-A-16V-10uF-K_C129279.html" H 9700 2150 50  0001 C CNN
 	1    9700 2150
 	1    0    0    -1  
@@ -786,7 +786,7 @@ U 1 1 63934A1C
 P 2050 3400
 F 0 "R2" H 2120 3446 50  0000 L CNN
 F 1 "1k" H 2120 3355 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1980 3400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1980 3400 50  0001 C CNN
 F 3 "~" H 2050 3400 50  0001 C CNN
 	1    2050 3400
 	1    0    0    -1  
@@ -808,7 +808,7 @@ U 1 1 63928A2C
 P 2050 3000
 F 0 "D3" H 2043 2745 50  0000 C CNN
 F 1 "FULL" H 2043 2836 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2050 3000 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 2050 3000 50  0001 C CNN
 F 3 "~" H 2050 3000 50  0001 C CNN
 	1    2050 3000
 	0    1    1    0   
@@ -819,7 +819,7 @@ U 1 1 63923C20
 P 1650 3000
 F 0 "D2" H 1643 2745 50  0000 C CNN
 F 1 "CHRG" H 1643 2836 50  0000 C CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1650 3000 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 1650 3000 50  0001 C CNN
 F 3 "~" H 1650 3000 50  0001 C CNN
 	1    1650 3000
 	0    1    1    0   
@@ -832,7 +832,7 @@ U 1 1 640C46BA
 P 2600 6500
 F 0 "J7" H 2707 7367 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 2707 7276 50  0000 C CNN
-F 2 "" H 2750 6500 50  0001 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 2750 6500 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2750 6500 50  0001 C CNN
 	1    2600 6500
 	1    0    0    -1  
@@ -861,7 +861,7 @@ U 1 1 6411403E
 P 2300 2650
 F 0 "R5" V 2093 2650 50  0000 C CNN
 F 1 "10k" V 2184 2650 50  0000 C CNN
-F 2 "" V 2230 2650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2230 2650 50  0001 C CNN
 F 3 "~" H 2300 2650 50  0001 C CNN
 	1    2300 2650
 	0    1    1    0   
@@ -875,10 +875,10 @@ Wire Wire Line
 Text Notes 650  2700 0    79   ~ 0
 R5 10K: 4.2V\nR5 open: 3.6V
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H1
 U 1 1 6412FF6C
 P 8200 5600
-F 0 "H?" H 8300 5649 50  0000 L CNN
+F 0 "H1" H 8300 5649 50  0000 L CNN
 F 1 "Mounting" H 8300 5558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 8200 5600 50  0001 C CNN
 F 3 "~" H 8200 5600 50  0001 C CNN
@@ -886,10 +886,10 @@ F 3 "~" H 8200 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 64131BF9
 P 8750 5600
-F 0 "H?" H 8850 5649 50  0000 L CNN
+F 0 "H2" H 8850 5649 50  0000 L CNN
 F 1 "Mounting" H 8850 5558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 8750 5600 50  0001 C CNN
 F 3 "~" H 8750 5600 50  0001 C CNN
@@ -897,10 +897,10 @@ F 3 "~" H 8750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H3
 U 1 1 64134462
 P 9300 5600
-F 0 "H?" H 9400 5649 50  0000 L CNN
+F 0 "H3" H 9400 5649 50  0000 L CNN
 F 1 "Mounting" H 9400 5558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 9300 5600 50  0001 C CNN
 F 3 "~" H 9300 5600 50  0001 C CNN
@@ -908,10 +908,10 @@ F 3 "~" H 9300 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H4
 U 1 1 64136CA7
 P 9850 5600
-F 0 "H?" H 9950 5649 50  0000 L CNN
+F 0 "H4" H 9950 5649 50  0000 L CNN
 F 1 "Mounting" H 9950 5558 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 9850 5600 50  0001 C CNN
 F 3 "~" H 9850 5600 50  0001 C CNN
@@ -919,10 +919,10 @@ F 3 "~" H 9850 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR02
 U 1 1 64139426
 P 8200 5700
-F 0 "#PWR?" H 8200 5450 50  0001 C CNN
+F 0 "#PWR02" H 8200 5450 50  0001 C CNN
 F 1 "GND" H 8205 5527 50  0000 C CNN
 F 2 "" H 8200 5700 50  0001 C CNN
 F 3 "" H 8200 5700 50  0001 C CNN
@@ -930,10 +930,10 @@ F 3 "" H 8200 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR016
 U 1 1 64139DEF
 P 8750 5700
-F 0 "#PWR?" H 8750 5450 50  0001 C CNN
+F 0 "#PWR016" H 8750 5450 50  0001 C CNN
 F 1 "GND" H 8755 5527 50  0000 C CNN
 F 2 "" H 8750 5700 50  0001 C CNN
 F 3 "" H 8750 5700 50  0001 C CNN
@@ -941,10 +941,10 @@ F 3 "" H 8750 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR017
 U 1 1 6413C473
 P 9300 5700
-F 0 "#PWR?" H 9300 5450 50  0001 C CNN
+F 0 "#PWR017" H 9300 5450 50  0001 C CNN
 F 1 "GND" H 9305 5527 50  0000 C CNN
 F 2 "" H 9300 5700 50  0001 C CNN
 F 3 "" H 9300 5700 50  0001 C CNN
@@ -952,10 +952,10 @@ F 3 "" H 9300 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR018
 U 1 1 6413EC35
 P 9850 5700
-F 0 "#PWR?" H 9850 5450 50  0001 C CNN
+F 0 "#PWR018" H 9850 5450 50  0001 C CNN
 F 1 "GND" H 9855 5527 50  0000 C CNN
 F 2 "" H 9850 5700 50  0001 C CNN
 F 3 "" H 9850 5700 50  0001 C CNN
