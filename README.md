@@ -11,7 +11,7 @@
 * [ ] fix LEDs to Vin instead of GND, schematic OK
 * [ ] remove component labels
 * [ ] tighter layout
-* [ ] mounting holes in schematic
+* [x] mounting holes in schematic
 * [ ] smaller solder connections, schematic footprints OK
 * [ ] USB C side B D+ and D- connections, schematic OK
 * [ ] change 0805 handsolder to 0805

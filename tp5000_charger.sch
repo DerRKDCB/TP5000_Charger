@@ -874,4 +874,100 @@ Wire Wire Line
 	2450 2650 2600 2650
 Text Notes 650  2700 0    79   ~ 0
 R5 10K: 4.2V\nR5 open: 3.6V
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6412FF6C
+P 8200 5600
+F 0 "H?" H 8300 5649 50  0000 L CNN
+F 1 "Mounting" H 8300 5558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 8200 5600 50  0001 C CNN
+F 3 "~" H 8200 5600 50  0001 C CNN
+	1    8200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 64131BF9
+P 8750 5600
+F 0 "H?" H 8850 5649 50  0000 L CNN
+F 1 "Mounting" H 8850 5558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 8750 5600 50  0001 C CNN
+F 3 "~" H 8750 5600 50  0001 C CNN
+	1    8750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 64134462
+P 9300 5600
+F 0 "H?" H 9400 5649 50  0000 L CNN
+F 1 "Mounting" H 9400 5558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 9300 5600 50  0001 C CNN
+F 3 "~" H 9300 5600 50  0001 C CNN
+	1    9300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 64136CA7
+P 9850 5600
+F 0 "H?" H 9950 5649 50  0000 L CNN
+F 1 "Mounting" H 9950 5558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 9850 5600 50  0001 C CNN
+F 3 "~" H 9850 5600 50  0001 C CNN
+	1    9850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64139426
+P 8200 5700
+F 0 "#PWR?" H 8200 5450 50  0001 C CNN
+F 1 "GND" H 8205 5527 50  0000 C CNN
+F 2 "" H 8200 5700 50  0001 C CNN
+F 3 "" H 8200 5700 50  0001 C CNN
+	1    8200 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64139DEF
+P 8750 5700
+F 0 "#PWR?" H 8750 5450 50  0001 C CNN
+F 1 "GND" H 8755 5527 50  0000 C CNN
+F 2 "" H 8750 5700 50  0001 C CNN
+F 3 "" H 8750 5700 50  0001 C CNN
+	1    8750 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6413C473
+P 9300 5700
+F 0 "#PWR?" H 9300 5450 50  0001 C CNN
+F 1 "GND" H 9305 5527 50  0000 C CNN
+F 2 "" H 9300 5700 50  0001 C CNN
+F 3 "" H 9300 5700 50  0001 C CNN
+	1    9300 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6413EC35
+P 9850 5700
+F 0 "#PWR?" H 9850 5450 50  0001 C CNN
+F 1 "GND" H 9855 5527 50  0000 C CNN
+F 2 "" H 9850 5700 50  0001 C CNN
+F 3 "" H 9850 5700 50  0001 C CNN
+	1    9850 5700
+	1    0    0    -1  
+$EndComp
+Text Notes 8150 5350 0    79   ~ 0
+Mounting Holes
+Text Notes 2550 4950 0    79   ~ 0
+IN
+Text Notes 4600 4950 0    79   ~ 0
+OUT
+Wire Notes Line
+	6950 6550 6950 4700
 $EndSCHEMATC
