@@ -897,28 +897,6 @@ F 3 "~" H 8750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
-U 1 1 64134462
-P 9300 5600
-F 0 "H3" H 9400 5649 50  0000 L CNN
-F 1 "Mounting" H 9400 5558 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 9300 5600 50  0001 C CNN
-F 3 "~" H 9300 5600 50  0001 C CNN
-	1    9300 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H4
-U 1 1 64136CA7
-P 9850 5600
-F 0 "H4" H 9950 5649 50  0000 L CNN
-F 1 "Mounting" H 9950 5558 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad" H 9850 5600 50  0001 C CNN
-F 3 "~" H 9850 5600 50  0001 C CNN
-	1    9850 5600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR02
 U 1 1 64139426
 P 8200 5700
@@ -938,28 +916,6 @@ F 1 "GND" H 8755 5527 50  0000 C CNN
 F 2 "" H 8750 5700 50  0001 C CNN
 F 3 "" H 8750 5700 50  0001 C CNN
 	1    8750 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 6413C473
-P 9300 5700
-F 0 "#PWR017" H 9300 5450 50  0001 C CNN
-F 1 "GND" H 9305 5527 50  0000 C CNN
-F 2 "" H 9300 5700 50  0001 C CNN
-F 3 "" H 9300 5700 50  0001 C CNN
-	1    9300 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR018
-U 1 1 6413EC35
-P 9850 5700
-F 0 "#PWR018" H 9850 5450 50  0001 C CNN
-F 1 "GND" H 9855 5527 50  0000 C CNN
-F 2 "" H 9850 5700 50  0001 C CNN
-F 3 "" H 9850 5700 50  0001 C CNN
-	1    9850 5700
 	1    0    0    -1  
 $EndComp
 Text Notes 8150 5350 0    79   ~ 0
