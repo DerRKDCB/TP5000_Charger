@@ -726,7 +726,7 @@ B8 3A 20 84 D0 A4 FF 07 D5 CC 2A DA 5B C1 FE 77 00 00 00 00 49 45 4E 44 AE 42 60
 EndData
 $EndBitmap
 Text Notes 10600 7650 0    79   ~ 0
-1
+1.2
 Text Notes 8200 7650 0    79   ~ 0
 31.01.2023
 Text Notes 7350 7500 0    79   ~ 0

@@ -5,7 +5,6 @@
 ### V1.1
 
 * [x] Test under voltage and short current feature
-
 * [x] rename from LiFePo4 Charger to Lithium Battery Charger
 * [x] make select-able between LiFePo4 and LiPo, schematic OK
 * [x] fix LEDs to Vin instead of GND, schematic OK
@@ -18,5 +17,7 @@
 
 ### V1.2
 
-* [ ] missing ground connection C3
+* [x] missing ground connection C3
 * [ ] test with lipo
+* [x] update silkscreen and schematic version number
+* [ ] plot gerber
