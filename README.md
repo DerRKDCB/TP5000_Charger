@@ -15,3 +15,8 @@
 * [x] smaller solder connections, schematic footprints OK
 * [x] USB C side B D+ and D- connections, schematic OK
 * [x] change 0805 handsolder to 0805
+
+### V1.2
+
+* [ ] missing ground connection C3
+* [ ] test with lipo
