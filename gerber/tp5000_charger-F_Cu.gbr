@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,5.1.12-84ad8e8a86~92~ubuntu20.04.1*%
-%TF.CreationDate,2023-03-19T01:12:36+01:00*%
+%TF.CreationDate,2023-07-09T10:21:26+02:00*%
 %TF.ProjectId,tp5000_charger,74703530-3030-45f6-9368-61726765722e,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L1,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.12-84ad8e8a86~92~ubuntu20.04.1) date 2023-03-19 01:12:36*
+G04 Created by KiCad (PCBNEW 5.1.12-84ad8e8a86~92~ubuntu20.04.1) date 2023-07-09 10:21:26*
 %MOMM*%
 %LPD*%
 G01*
@@ -1684,6 +1684,8 @@ X90950000Y-124200000D02*
 X91000000Y-124250000D01*
 X89760000Y-124200000D02*
 X90950000Y-124200000D01*
+X102500000Y-129700000D02*
+X102500000Y-131250000D01*
 D22*
 %TO.N,Net-(C2-Pad1)*%
 X99325000Y-120575000D02*

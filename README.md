@@ -18,6 +18,6 @@
 ### V1.2
 
 * [x] missing ground connection C3
-* [ ] test with lipo
+* [x] test with lipo
 * [x] update silkscreen and schematic version number
-* [ ] plot gerber
+* [x] plot gerber
